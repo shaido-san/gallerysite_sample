@@ -12,11 +12,23 @@ body {
 
 /* ヘッダー（各自で追加）
 -------------------------- */
-
+header{
+    background-color: rebeccapurple;
+    color: antiquewhite;
+    text-align: center;
+    padding: auto;
+    width: 100%;
+}
 
 /* フッター（各自で追加）
 -------------------------- */
-
+footer{
+    background-color: rebeccapurple;
+    color: antiquewhite;
+    text-align: center;
+    padding: auto;
+    width: 100%;
+}
 
 /* コンテンツ
 -------------------------- */

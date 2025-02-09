@@ -14,6 +14,7 @@
 <body>
 	<!-- ヘッダー -->
 	<header>
+        <h1>気になった場所をクリックしてみよう</h1>
 	</header>
 	
 	<!-- フィルターボタン 国別-->
@@ -24,56 +25,63 @@
 		<li id="bolibia">ボリビア</li>
 	</ul>
 
-    <!-- フィルターボタン カテゴリ別-->
-    <ul class="filter-button-right" id="category-filter">
-		<li data-filter="all" class="is-checked">すべて</li>
-		<li data-filter="mountain">山</li>
-		<li data-filter="sea">海</li>
-		<li data-filter="desert">砂漠</li>
-		<li data-filter="other">その他</li>
-	</ul>
-
 	<!-- コンテンツ -->
 	<div class="contents">
 		<ul class="grid" id="grid">
             <!-- アメリカ -->
-            <li class="itembox america mountain">
-				<a href="img/america/grand_kyanion.jpg">
-					<img src="img/america/grand_kyanion.jpg" alt="">
+            <li class="itembox america">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%8B%E3%82%AA%E3%83%B3/@36.0997631,-112.7222258,10z/data=!4m10!1m2!2m1!1z44Kw44Op44Oz44OJ44Kt44Oj44OL44Kq44Oz!3m6!1s0x80cc0654bd27e08d:0xb1c2554442d42e8d!8m2!3d36.0997631!4d-112.1124846!15sChvjgrDjg6njg7Pjg4njgq3jg6Pjg4vjgqrjg7NaHiIc44Kw44Op44Oz44OJIOOCreODo-ODi-OCquODs5IBBnJhdmluZeABAA!16s%2Fg%2F1tg6vzsz?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+					<img src="img/america/grand_kyanion.jpg" alt="グランドキャニオン">
 				</a>
 			</li>
 
-            <li class="itembox america sea">
-				<a href="img/america/hawai.jpg">
+            <li class="itembox america">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD+%E3%83%8F%E3%83%AF%E3%82%A4%E5%B7%9E/@20.4400598,-160.1464596,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
 					<img src="img/america/hawai.jpg" alt="">
 				</a>
 			</li>
 
-			<li class="itembox america desert">
-				<a href="img/america/antero-pu.jpg">
+			<li class="itembox america">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%A2%E3%83%B3%E3%83%86%E3%83%AD%E3%83%BC%E3%83%97%E3%83%BB%E3%82%AD%E3%83%A3%E3%83%8B%E3%82%AA%E3%83%B3/@35.615269,-156.4024587,3z/data=!4m10!1m2!2m1!1z44Ki44Oz44OG44Ot44O844OX!3m6!1s0x80ce83355462889d:0x809daf6a69e9c0c8!8m2!3d35.615269!4d-114.2149587!15sChLjgqLjg7Pjg4bjg63jg7zjg5eSAQZyYXZpbmXgAQA!16s%2Fg%2F1wnby911?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
 					<img src="img/america/antero-pu.jpg" alt="">
 				</a>
 			</li>
 
             <!-- 南アフリカ -->
-            <li class="itembox south_africa mountain">
-				<a href="img/south_africa/table_mounten.jpg">
+            <li class="itembox south_africa">
+				<a href="https://www.google.co.jp/maps/place/Lion's+Head/@-33.935037,18.3889709,14z/data=!3m1!4b1!4m6!3m5!1s0x1dcc6705adf437ed:0x482833296b600211!8m2!3d-33.9350375!4d18.3889709!16zL20vMDVxXzVs?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+					<img src="img/south_africa/lions_head.jpg" alt="">
+				</a>
+			</li>
+
+            <li class="itembox south_africa">
+				<a href="https://www.google.co.jp/maps/place/%E5%8D%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB+%E3%80%923233+%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BB%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%86%E3%83%B3/@-29.5836807,30.5371481,15z/data=!3m1!4b1!4m6!3m5!1s0x1ef6c06423996b1b:0x1d08865af323e09!8m2!3d-29.5855644!4d30.5376907!16s%2Fg%2F1tndgq77?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
 					<img src="img/south_africa/table_mounten.jpg" alt="">
 				</a>
 			</li>
 
-            <li class="itembox south_africa sea">
-				<a href="img/south_africa/kibouho.jpg">
+            <li class="itembox south_africa">
+				<a href="https://www.google.co.jp/maps/place/%E5%96%9C%E6%9C%9B%E5%B3%B0/@-34.3566995,18.4539817,14z/data=!4m10!1m2!2m1!1z5Zac5pyb5bOw!3m6!1s0x1dcc230000968699:0xa9b1fe4d69beaaa9!8m2!3d-34.3586894!4d18.4753499!15sCgnllpzmnJvls7CSAQlwZW5pbnN1bGHgAQA!16s%2Fg%2F1pzsyxb72?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
 					<img src="img/south_africa/kibouho.jpg" alt="">
 				</a>
 			</li>
-
-
-
+            
             <!-- ボリビア -->
-            <li class="itembox bolibia other">
-				<a href="img/bolibia/uyuni.jpg">
+            <li class="itembox bolibia">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%A6%E3%83%A6%E3%83%8B%E5%A1%A9%E5%8E%9F/@-20.2083005,-68.2514584,9z/data=!3m1!4b1!4m6!3m5!1s0x915584b325e18bd7:0xce4183a158278b6!8m2!3d-20.1337772!4d-67.4891345!16zL20vMDFjYmN2?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank"">
 					<img src="img/bolibia/uyuni.jpg" alt="">
+				</a>
+			</li>
+
+            <li class="itembox bolibia">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%A6%E3%83%A6%E3%83%8B%E5%A1%A9%E5%8E%9F/@-20.2083005,-68.2514584,9z/data=!3m1!4b1!4m6!3m5!1s0x915584b325e18bd7:0xce4183a158278b6!8m2!3d-20.1337772!4d-67.4891345!16zL20vMDFjYmN2?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank"">
+					<img src="img/bolibia/uyuni_sammar.jpg" alt="">
+				</a>
+			</li>
+
+            <li class="itembox bolibia">
+				<a href="https://www.google.co.jp/maps/place/%E3%82%A6%E3%83%A6%E3%83%8B%E5%A1%A9%E5%8E%9F/@-20.2083005,-68.2514584,9z/data=!3m1!4b1!4m6!3m5!1s0x915584b325e18bd7:0xce4183a158278b6!8m2!3d-20.1337772!4d-67.4891345!16zL20vMDFjYmN2?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank"">
+					<img src="img/bolibia/uyuni_dinner.jpg" alt="">
 				</a>
 			</li>
 
@@ -84,6 +92,7 @@
 
 	<!-- フッター -->
 	<footer>
+        <p>&copy; 2025 世界の絶景ギャラリー</p>
 	</footer>
 	
 	<!-- js読み込み -->
